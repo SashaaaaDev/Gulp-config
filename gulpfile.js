@@ -56,7 +56,7 @@ function scssMin() {
 
 function comb() {
   return src(Path.scssAll)
-    .pipe(csscomb(".comb.json"))
+    .pipe(csscomb("comb.json"))
     .pipe(dest(Path.scssFolder));
 }
 
